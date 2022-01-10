@@ -241,7 +241,7 @@ EURASIP J. Embedded Systems, 2007:082174. [PDF](http://citeseerx.ist.psu.edu/vie
 ACM/IEEE Int. Conf. on Distributed Smart Cameras, 2007. [PDF](http://belbachir.info/PDF/icdsc2007.pdf)
 - <a name="Ni12tro"></a>Ni, Z., Bolopion, A., Agnus, J., Benosman, R., Regnier, S.,  
 *[Asynchronous event-based visual shape tracking for stable haptic feedback in microrobotics](https://doi.org/10.1109/TRO.2012.2198930)*,  
-IEEE Trans. Robot., 28(5):1081-1089, 2012. [PDF](https://www.neuromorphic-vision.com/public/publications/15/publication.pdf)
+IEEE Trans. Robot. (TRO), 28(5):1081-1089, 2012. [PDF](https://www.neuromorphic-vision.com/public/publications/15/publication.pdf)
     - [Ni, Ph.D. Thesis, 2013](#Ni13PhD),  
 *Asynchronous Event Based Vision:  Algorithms and Applications to Microrobotics*.
     - <a name="Ni15neco"></a>Ni, Z., Ieng, S. H., Posch, C., Regnier, S., Benosman, R.,  
@@ -653,6 +653,9 @@ IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [Sup
 - <a name="Gehrig21threedv"></a>Gehrig, M., Millhäusler, M., Gehrig, D., Scaramuzza, D.,  
 *[E-RAFT: Dense Optical Flow from Event Cameras](https://arxiv.org/pdf/2108.10552)*,  
 IEEE Int. Conf. on 3D Vision (3DV), 2021. [Code](https://github.com/uzh-rpg/E-RAFT), [Dataset](https://dsec.ifi.uzh.ch), [Youtube](https://youtu.be/dN8fl7-XfNw)
+- <a name="Brebion21tits"></a>Brebion, V., Moreau, J., Davoine, F.,  
+*[Real-Time Optical Flow for Vehicular Perception With Low- and High-Resolution Event Cameras](https://doi.org/10.1109/TITS.2021.3136358)*,  
+IEEE Trans. Intell. Transp. Syst. (T-ITS), 2021. [PDF](https://arxiv.org/pdf/2112.10591.pdf), [Code](https://github.com/vbrebion/rt_of_low_high_res_event_cameras), [Dataset](https://datasets.hds.utc.fr/share/er2aA4R0QMJzMyO), [YouTube](https://youtube.com/playlist?list=PLLL0eWAd6OXBRXli-tB1NREdhBElAxisD).
 
 
 <a name="scene-flow-estimation"></a>
@@ -814,7 +817,7 @@ IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2021. [Project page](
 IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [YouTube](https://youtu.be/hrfsDOL18pw), [Suppl.](https://openaccess.thecvf.com/content/CVPR2021W/EventVision/supplemental/Paikin_EFI-Net_Video_Frame_CVPRW_2021_supplemental.zip), [Dataset](https://drive.google.com/file/d/1UIGVBqNER_5KguYPAu5y7TVg-JlNhz3-/view?usp=sharing).
 - <a name="Wang21iccv"></a>Wang, Z., Ng, Y., Scheerlinck, C., Mahony., R.,  
 *[An Asynchronous Kalman Filter for Hybrid Event Cameras](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_An_Asynchronous_Kalman_Filter_for_Hybrid_Event_Cameras_ICCV_2021_paper.html)*,  
-IEEE Int. Conf. Computer Vision (ICCV), 2021. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_An_Asynchronous_Kalman_Filter_for_Hybrid_Event_Cameras_ICCV_2021_paper.pdf), [Project page](https://github.com/ziweiWWANG/AKF), [YouTube](https://www.youtube.com/watch?v=XPz7laloKws&t=196s), [Suppl.](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_An_Asynchronous_Kalman_ICCV_2021_supplemental.pdf)
+IEEE Int. Conf. Computer Vision (ICCV), 2021. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_An_Asynchronous_Kalman_Filter_for_Hybrid_Event_Cameras_ICCV_2021_paper.pdf), [Code](https://github.com/ziweiWWANG/AKF), [YouTube](https://www.youtube.com/watch?v=XPz7laloKws), [Suppl.](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_An_Asynchronous_Kalman_ICCV_2021_supplemental.pdf)
 
 <a name="super-resolution"></a>
 ### Super-resolution
@@ -920,6 +923,9 @@ IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2021. [Project page](
 - <a name="Xueyan21oe"></a>Huang, X., Zhang, Y., Xiong Z.,  
 *[High-speed structured light based 3D scanning using an event camera](https://doi.org/10.1364/OE.437944)*,  
 Optics Express, 2021. [Video](https://osapublishing.figshare.com/articles/media/Tearing_A_Piece_Of_Paper_120Fps_mp4/14984802).
+- <a name="Muglikar21esl"></a>Muglikar, M., Gallego, G., Scaramuzza, D.,  
+*[ESL: Event-based Structured Light](http://rpg.ifi.uzh.ch/docs/3DV21_Muglikar_ESL.pdf)*,  
+IEEE Int. Conf. 3D Vision (3DV), 2021. [Poster](http://rpg.ifi.uzh.ch/docs/3DV21_Muglikar_ESL_poster.pdf), [YouTube](https://youtu.be/SITmvZ8VLfs), [Project page and Dataset](http://rpg.ifi.uzh.ch/esl.html), [Code](https://github.com/uzh-rpg/ESL).
 
 
 <a name="depth-stereo"></a>
@@ -1090,9 +1096,9 @@ Advanced Robotics, 2020.
 AAAI Conf. Artificial Intelligence, 2021.
 [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/16171/15978), [Video](https://youtu.be/ow2TsNMo_T4), [Project page](https://sites.google.com/site/gachoncvip/projects/deep-event-based-stereo-matching)
 - <a name="Wang21iros"></a>Wang, Z., Pan, L., Ng, Y., Zhuang, Z., Mahony., R.,   
-*[Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception](https://arxiv.org/abs/2110.04988)*,  
+*[Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception](https://doi.org/10.1109/IROS51168.2021.9636312)*,  
 IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2021.
-[PDF](https://arxiv.org/abs/2110.04988), [Video](https://www.youtube.com/watch?v=Azu7rJSPGNc), [Project page](https://github.com/ziweiWWANG/SHEF)
+[PDF](https://arxiv.org/abs/2110.04988), [Video](https://www.youtube.com/watch?v=Azu7rJSPGNc), [Dataset](https://github.com/ziweiWWANG/SHEF)
 
 <a name="depth-stereo-active"></a>
 ### Stereo Depth Estimation using Structured Light
@@ -1222,9 +1228,9 @@ IEEE Int. Conf. Computer Vision (ICCV), 2021. [Project page](http://vis-www.cs.u
 
 <a name="visual-servoing"></a>
 ### Visual Servoing
-- <a name="Muthusamy20arxiv"></a>Muthusamy, R., Ayyad, A., Halwani, M., Zweiri, Y., Gan, D., Seneviratne, L.,  
-*[Neuromorphic Eye-in-Hand Visual Servoing](https://arxiv.org/pdf/2004.07398)*,  
-arXiv, 2020.
+- <a name="Muthusamy21ieeeaccess"></a>Muthusamy, R., Ayyad, A., Halwani, M., Swart, D., Gan, D., Seneviratne, L., Zweiri, Y.,   
+*[Neuromorphic Eye-in-Hand Visual Servoing](https://doi.org/10.1109/ACCESS.2021.3071261)*,  
+IEEE Access, 2021. [YouTube](https://www.youtube.com/watch?v=g0R-mC43CX0).
 - <a name="Muthusamy20arxiv"></a>Gomez Eguiluz, A., Rodriguez-Gomez, J.P., Martinez-de Dios, J.R., Ollero, A.,  
 *[Asynchronous Event-based Line Tracking for Time-to-Contact Maneuvers in UAS](https://griffin-erc-advanced-grant.eu/wp-content/uploads/2020/08/Asynchronous-Event-based-Line-Tracking-for-Time-to-Contact-Maneuvers-in-UAS.pdf)*,  
 IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2020.
@@ -1295,14 +1301,14 @@ arXiv, 2021.
 #### Stereo
 - <a name="Zhou21tro"></a>Zhou, Y., Gallego, G., Shen, S.,  
 *[Event-based Stereo Visual Odometry](https://doi.org/10.1109/TRO.2021.3062252)*,  
-IEEE Trans. Robot., 2021. [Project page](https://sites.google.com/view/esvo-project-page/home), [PDF](https://arxiv.org/pdf/2007.15548), [YouTube](https://youtu.be/3CPPs1gz04k), [Code](https://github.com/HKUST-Aerial-Robotics/ESVO.git).
+IEEE Trans. Robot. (TRO), 2021. [Project page](https://sites.google.com/view/esvo-project-page/home), [PDF](https://arxiv.org/pdf/2007.15548), [YouTube](https://youtu.be/3CPPs1gz04k), [Code](https://github.com/HKUST-Aerial-Robotics/ESVO.git).
 
 
 <a name="visual-inertial"></a>
 ### Visual-Inertial Odometry
 - <a name="Mueggler18tro"></a>Mueggler, E., Gallego, G., Rebecq, H., Scaramuzza, D.,  
 *[Continuous-Time Visual-Inertial Odometry for Event Cameras](http://rpg.ifi.uzh.ch/docs/TRO18_Mueggler.pdf)*,  
-IEEE Trans. Robot., 2018.
+IEEE Trans. Robot. (TRO), 2018.
 - [Mueggler et al., IJRR 2017](#Mueggler17ijrr).  
 *The Event-Camera Dataset and Simulator: Event-based Data for Pose Estimation, Visual Odometry, and SLAM.*
 - <a name="Zhu17cvpr"></a>Zhu, A., Atanasov, N., Daniilidis, K.,  
@@ -1505,7 +1511,13 @@ IEEE Robotics and Automation Letters (RA-L), 5(3):4596-4603, July 2020.
 - <a name="Patel21abec"></a>Patel, H., Iaboni, C., Lobo, D., Choi, J., Abichandani, P.,  
 *[Event Camera Based Real-Time Detection and Tracking of Indoor Ground Robots](https://arxiv.org/pdf/2102.11916v1)*,  
 arXiv, 2021.
-
+- <a name="Kim21iccv"></a>Kim, J., Bae, J., Park, G., Zhang, D., and Kim, Y.,  
+*[N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_N-ImageNet_Towards_Robust_Fine-Grained_Object_Recognition_With_Event_Cameras_ICCV_2021_paper.pdf),*  
+IEEE Int. Conf. Computer Vision (ICCV), 2021.
+[Suppl. Mat.](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Kim_N-ImageNet_Towards_Robust_ICCV_2021_supplemental.pdf), [Github Page](https://github.com/82magnolia/n_imagenet), [N-ImageNet Dataset](https://www.dropbox.com/sh/47we7z2gff5barh/AADU4GyWnzLFzMzBDjLP00baa?dl=0).
+- <a name="li21iccv"></a>Li, Y., Zhou, H., Yang, B., Zhang, Y., Cui, Z., Bao, H., Zhang, G.,  
+*[Graph-based Asynchronous Event Processing for Rapid Object Recognition](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Graph-Based_Asynchronous_Event_Processing_for_Rapid_Object_Recognition_ICCV_2021_paper.html)*,  
+IEEE Int. Conf. Computer Vision (ICCV), 2021. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Graph-Based_Asynchronous_Event_Processing_for_Rapid_Object_Recognition_ICCV_2021_paper.pdf), [Suppl.](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Li_Graph-Based_Asynchronous_Event_ICCV_2021_supplemental.pdf)
 
 <a name="gesture-recognition"></a>
 ### Gesture Recognition
@@ -1826,8 +1838,10 @@ IEEE Trans. Multimedia (TMM), 2020.
 *[A Noise Filter for Dynamic Vision Sensors based on Global Space and Time Information](https://arxiv.org/pdf/2004.04079)*,  
 arXiv, 2020.
 - [Baldwin et al., arXiv 2021](#Baldwin21arxiv).  
-*Time-Ordered Recent Event (TORE) Volumes for Event Cameras*.
-
+*Time-Ordered Recent Event (TORE) Volumes for Event Cameras*.  
+- <a name="Alkendi21arxiv"></a>Alkendi, Y., Azzam, R., Ayyad, A., Javed, S., Seneviratne, L., Zweiri, Y.,  
+[Neuromorphic Camera Denoising using Graph Neural Network-driven Transformers](https://arxiv.org/pdf/2112.09685),  
+arXiv, 2021. [Youtube](https://www.youtube.com/watch?v=x0FXZLEenJ8), [Dataset](https://github.com/Yusra-alkendi/ED-KoGTL)
 
 <a name="compression"></a>
 ### Compression
@@ -1919,10 +1933,12 @@ IEEE Robotics and Automation Letters (RA-L), 5(4):6239-6246, Oct. 2020. [PDF](ht
 IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2020.
 - <a name="Delbruck21cvprw"></a>Delbruck, T., Graca, R., Paluch, M.,  
 *[Feedback control of event cameras](https://openaccess.thecvf.com/content/CVPR2021W/EventVision/papers/Hu_v2e_From_Video_Frames_to_Realistic_DVS_Events_CVPRW_2021_paper.pdf)*, IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021.
-- <a name="Vitale21icra"></a>Vitale, A., Renner, A., Nauer, C., Scaramuzza, D., Sandamirskaya, Y.,
-*[Event-driven Vision and Control for UAVs on a Neuromorphic Chip](http://rpg.ifi.uzh.ch/docs/ICRA21_Vitale.pdf)*,
-IEEE International Conference on Robotics and Automation (ICRA), Xi'an, 2021.
-[YouTube](https://youtu.be/uGEK8eT9Qb0), [PPT Slides](http://rpg.ifi.uzh.ch/docs/ICRA2021_PID%20Controller.pptx)
+- <a name="Vitale21icra"></a>Vitale, A., Renner, A., Nauer, C., Scaramuzza, D., Sandamirskaya, Y.,  
+*[Event-driven Vision and Control for UAVs on a Neuromorphic Chip](https://doi.org/10.1109/ICRA48506.2021.9560881)*,  
+IEEE Int. Conf. Robotics and Automation (ICRA), 2021. [PDF](http://rpg.ifi.uzh.ch/docs/ICRA21_Vitale.pdf), [YouTube](https://youtu.be/uGEK8eT9Qb0), [PPT Slides](http://rpg.ifi.uzh.ch/docs/ICRA2021_PID%20Controller.pptx).
+- <a name="Ayyad21arxiv"></a>Ayyad, A., Halwani, M., Swart, D., Muthusamy, R., Almaskari, F., Zweiri, Y.,   
+*[Neuromorphic Vision Based Control for the Precise Positioning of Robotic Drilling Systems](https://arxiv.org/pdf/2201.01626)*,  
+arXiv, 2021. [Video](https://drive.google.com/file/d/1q9QwPvkd7ZcEBcGMIxIVy2r_iRfTKCSe/view).
 
 <a name="space"></a>
 ## Space Applications
@@ -2289,6 +2305,7 @@ Front. Neurosci. (2020), 13:1338. [Code](https://github.com/neuromorphic-paris/t
 - [BIMVEE](https://github.com/event-driven-robotics/bimvee) Python tools for Batch Import, Manipulation, Visualisation and Export of Events and other timestamped data. Imports from various file formats into a common workspace format, including native Python import of rosbags.
 - [Tonic](https://github.com/neuromorphs/tonic) provides publicly available event datasets and data transformations based on PyTorch.
 - Prophesee automotive dataset toolbox, [Code](https://github.com/prophesee-ai/prophesee-automotive-dataset-toolbox)
+- [dv_ros](https://github.com/kehanXue/dv_ros) ROS package for accumulating event frames with iniVation Dynamic Vision System's dv-sdk.
 
 <br><br>
 <a name="processors-platforms"></a>
