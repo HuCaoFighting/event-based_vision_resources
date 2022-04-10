@@ -54,7 +54,7 @@
 - [Datasets and Simulators](#datasets)
 - [Software](#software)
     - [Drivers](#drivers)
-    - [Calibration](#calibration)
+    - [Lens Calibration](#calibration)
     - [Algorithms](#software-algorithms)
     - [Utilities](#software-utilities)
 
@@ -98,7 +98,10 @@ Brandli, C., Berner, R., Yang, M., Liu, S.-C., Delbruck, T., *[A 240x180 130 dB 
     - [Product specifications](https://inivation.com/support/product-specifications/)
     - [User guide](https://inivation.github.io/inivation-docs/Hardware%20user%20guides/User_guide_-_DAVIS240.html)
     - **Color-DAVIS**: Li, C., Brandli, C., Berner, R., Liu, H., Yang, M., Liu, S.-C., Delbruck, T., *[Design of an RGBW Color VGA Rolling and Global Shutter Dynamic and Active-Pixel Vision Sensor](https://doi.org/10.1109/ISCAS.2015.7168734)*, IEEE Int. Symp. Circuits and Systems (ISCAS), 2015, pp. 718-721.
-    - **SDAVIS192** Moeys, D. P., Corradi, F., Li, C., Bamford, S. A., Longinotti, L., Voigt, F. F., Berry, S., Taverni, G., Helmchen, F., Delbruck, T., *[A Sensitive Dynamic and Active Pixel Vision Sensor for Color or Neural Imaging Applications](https://doi.org/10.1109/TBCAS.2017.2759783)*, IEEE Trans. Biomed. Circuits Syst. 12(1):123-136 2018.
+    - **SDAVIS192**: Moeys, D. P., Corradi, F., Li, C., Bamford, S. A., Longinotti, L., Voigt, F. F., Berry, S., Taverni, G., Helmchen, F., Delbruck, T., *[A Sensitive Dynamic and Active Pixel Vision Sensor for Color or Neural Imaging Applications](https://doi.org/10.1109/TBCAS.2017.2759783)*, IEEE Trans. Biomed. Circuits Syst. 12(1):123-136 2018.
+    - **DAVIS346**: Taverni, G; Paul Moeys, D; Li, C; Cavaco, C; Motsnyi, V; San Segundo Bello, D; Delbruck, T.,  
+[Front and Back Illuminated Dynamic and Active Pixel Vision Sensors Comparison](http://dx.doi.org/10.1109/TCSII.2018.2824899),  
+IEEE Trans. Circuits Syst. Express Briefs, 2018
 - [**Insightness's Silicon Eye**](https://youtu.be/Y0mIb_MehK8) QVGA event sensor.
     - [The Silicon Eye Technology](http://www.insightness.com/?p=361)
     - [Slides](http://rpg.ifi.uzh.ch/docs/CVPR19workshop/CVPRW19_Insightness.pdf) and [Video](https://youtu.be/9IJwF9xYEoU) by [Stefan Isler](http://www.insightness.com/#team) (2019).
@@ -121,6 +124,14 @@ Brandli, C., Berner, R., Yang, M., Liu, S.-C., Delbruck, T., *[A 240x180 130 dB 
     - Prototype, commercially n.a.
 - **Smart DVS (GAEP)**: Posch, C., Hoffstaetter, M., Schoen, P., *[A SPARC-compatible general purpose Address-Event processor with 20-bit 10ns-resolution asynchronous sensor data interface in 0.18um CMOS](https://doi.org/10.1109/ISCAS.2010.5537575)*, IEEE Int. Symp. Circuits and Systems (ISCAS), 2010.
     - Prototype, commercially n.a.
+- **PDAVIS**: Haessig, G. et al.,
+[Bio-inspired Polarization Event Camera](http://arxiv.org/abs/2112.01933),  
+arXiv [cs.CV] (2021) [PDAVIS video](https://drive.google.com/file/d/157mT8960m_QCm15i8HlB5SVyf45X_NUo/view?usp=sharing)
+  - Prototype, commercially n.a.
+- **Center Surround Event Camera (CSDVS)**: Delbruck, T., Li, C., Graca, R. & Mcreynolds, B.,  
+*[Utility and Feasibility of a Center Surround Event Camera](http://arxiv.org/abs/2202.13076)*  
+arXiv [cs.CV] (2022) [CSDVS videos](https://sites.google.com/view/csdvs/home)
+  - Proposed architecture.
 
 <a name="companies_sftwr"></a>
 # Companies working on Event-based Vision
@@ -128,7 +139,7 @@ Brandli, C., Berner, R., Yang, M., Liu, S.-C., Delbruck, T., *[A 240x180 130 dB 
 - [iniLabs AG](https://inilabs.com/) invents neuromorphic technologies for *research*.
 - [Samsung](http://www.samsung.com) develops Gen2 and Gen3 dynamic vision sensors and event-based vision solutions.
     - [IBM Research](http://www.research.ibm.com/articles/brain-chip.shtml) ([Synapse project](http://www.research.ibm.com/cognitive-computing/brainpower/)) and Samsung partenered to combine the [TrueNorth chip (brain) with a DVS (eye)](https://www.cnet.com/news/samsung-turns-ibms-brain-like-chip-into-a-digital-eye/).
-- [Prophesee](http://www.prophesee.ai) (Formerly [Chronocam](http://www.chronocam.com/)) is the inventor and supplier of 4 Event-Based sensors generations, incuding commercial-grade versions as well as industry’s largest software suite. The company focuses on Industrial, Mobile-IoT and Automotive applications.
+- [Prophesee](http://www.prophesee.ai) (Formerly [Chronocam](http://www.chronocam.com/)) is the inventor and supplier of 4 Event-Based sensors generations, including commercial-grade versions as well as industry’s largest software suite. The company focuses on Industrial, Mobile-IoT and Automotive applications.
 - [Insightness AG](http://www.insightness.com/) builds visual systems to give mobile devices spatial awareness. [The Silicon Eye](http://www.insightness.com/?p=361) Technology.
 - [SLAMcore](https://www.slamcore.com/) develops Localisation and mapping solutions for AR/VR, robotics & autonomous vehicles.
 - [CelePixel](https://www.celepixel.com) (formerly [Hillhouse Technology](http://www.hillhouse-tech.com/)) offer integrated sensory platforms that incorporate various components and technologies, including a processing chipset and an image sensor (a dynamic vision sensor called CeleX).
@@ -162,7 +173,7 @@ Proc. IEEE, 102(9):1367-1388, 2014.
 Front. Neurosci. (2016), 10:115.
 - [Liu et al., Signal Process. Mag. 2019](#Liu19msp),  
 *Event-Driven Sensing for Efficient Perception: Vision and audition algorithms*.
-- [Event Cameras - Tutorial - Tobi Delbruck, version 4](https://youtu.be/Th4TM4SsFGY)
+- [Event Cameras Tutorial - Tobi Delbruck, version 4.1](https://youtu.be/D6rv6q9XyWU), Sep. 18, 2020.
 - <a name="Kirkland20spie"></a>Kirkland, P., Di Caterina, G., Soraghan, J., Matich, G.,  
 [Neuromorphic technologies for defence and security](https://doi.org/10.1117/12.2575978),  
 SPIE vol 11540, Emerging Imaging and Sensing Technologies for Security and Defence V; and Advanced Manufacturing Technologies for Micro- and Nanosystems in Security and Defence III; 2020.
@@ -406,7 +417,7 @@ arXiv, 2021.
 Int. Conf. on Machine Vision and Applications (ICMVA), 2021. [Code](https://github.com/LarryDong/FusionTracking)
 - <a name="Mondal21iccvw"></a>Mondal, A., Shashant, R., Giraldo, J. H., Bouwmans, T., Chowdhury, A. S.,  
 *[Moving Object Detection for Event-based Vision using Graph Spectral Clustering](https://openaccess.thecvf.com/content/ICCV2021W/GSP-CV/papers/Mondal_Moving_Object_Detection_for_Event-Based_Vision_Using_Graph_Spectral_Clustering_ICCVW_2021_paper.pdf)*,  
-IEEE Int. Conf. Computer Vision Workshop (ICCVW), 2021. [Youtube](https://youtu.be/ST6Z-3SlNS4).
+IEEE Int. Conf. Computer Vision Workshop (ICCVW), 2021. [Youtube](https://youtu.be/ST6Z-3SlNS4), [Code](https://github.com/anindya2001/GSCEventMOD).
 
 
 <a name="corner-detection"></a>
@@ -638,9 +649,9 @@ European Conf. Computer Vision (ECCV), 2020. [Suppl. Mat.](https://www.ecva.net/
 Sensors 2021, 21, 1150. [PDF](https://www.mdpi.com/1424-8220/21/4/1150/pdf)
 - [Paredes-Valles et al., CVPR 2021](#ParedesValles21cvpr),  
 *Back to Event Basics: Self-Supervised Learning of Image Reconstruction for Event Cameras via Photometric Constancy.*
-- <a name="ParedesValles21arxiv"></a>Paredes-Valles, F., Hagenaars, J. J., de Croon, G. C. H. E.,  
-*[Self-Supervised Learning of Event-Based Optical Flow with Spiking Neural Networks](https://arxiv.org/abs/2106.01862)*,  
-arXiv:2106.01862, 2021.
+- <a name="Hagenaars21neurips"></a>Hagenaars, J. J., Paredes-Valles, F., de Croon, G. C. H. E.,  
+*[Self-Supervised Learning of Event-Based Optical Flow with Spiking Neural Networks](https://proceedings.neurips.cc/paper/2021/hash/39d4b545fb02556829aab1db805021c3-Abstract.html)*,  
+Advances in Neural Information Processing Systems 34 (NeurIPS), 2021. [Project page](https://mavlab.tudelft.nl/event_flow/), [PDF](https://proceedings.neurips.cc/paper/2021/file/39d4b545fb02556829aab1db805021c3-Paper.pdf), [Suppl. Mat.](https://proceedings.neurips.cc/paper/2021/file/39d4b545fb02556829aab1db805021c3-Supplemental.pdf), [Code](https://github.com/tudelft/event_flow).
 - <a name="Sikorski21cvprw"></a>Sikorski, O., Izzo, D., Meoni, G.,  
 *[Event-Based Spacecraft Landing Using Time-To-Contact](https://openaccess.thecvf.com/content/CVPR2021W/AI4Space/papers/Sikorski_Event-Based_Spacecraft_Landing_Using_Time-To-Contact_CVPRW_2021_paper.pdf)*,  
 IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021.
@@ -656,6 +667,9 @@ IEEE Int. Conf. on 3D Vision (3DV), 2021. [Code](https://github.com/uzh-rpg/E-RA
 - <a name="Brebion21tits"></a>Brebion, V., Moreau, J., Davoine, F.,  
 *[Real-Time Optical Flow for Vehicular Perception With Low- and High-Resolution Event Cameras](https://doi.org/10.1109/TITS.2021.3136358)*,  
 IEEE Trans. Intell. Transp. Syst. (T-ITS), 2021. [PDF](https://arxiv.org/pdf/2112.10591.pdf), [Code](https://github.com/vbrebion/rt_of_low_high_res_event_cameras), [Dataset](https://datasets.hds.utc.fr/share/er2aA4R0QMJzMyO), [YouTube](https://youtube.com/playlist?list=PLLL0eWAd6OXBRXli-tB1NREdhBElAxisD).
+- <a name="LiuDelbruck22tcsvt"></a>Liu, M., Delbruck, T.,  
+*[EDFLOW: Event Driven Optical Flow Camera with Keypoint Detection and Adaptive Block Matching](https://ieeexplore.ieee.org/document/9727106)*,  
+IEEE Trans. Circuits Syst. Video Technol. (TCSVT), 2022. [Preprint PDF](https://drive.google.com/file/d/15YflL00x8X1StKwZqWR3YLBN8iHAP27E/view?usp=sharing), [Code and Dataset](https://sites.google.com/view/edflow21/home)
 
 
 <a name="scene-flow-estimation"></a>
@@ -836,13 +850,16 @@ IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2021.
 - <a name="Duan21cvpr"></a>Duan, P., Wang, Z. W., Zhou, X., Ma, Y., Shi, B.,  
 *[EventZoom: Learning To Denoise and Super Resolve Neuromorphic Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Duan_EventZoom_Learning_To_Denoise_and_Super_Resolve_Neuromorphic_Events_CVPR_2021_paper.pdf)*,  
 IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2021. [Project page](https://sites.google.com/view/EventZoom), [Suppl.](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Duan_EventZoom_Learning_To_CVPR_2021_supplemental.zip)
+- <a name="Han21iccv"></a>Han, J., Yang, Y., Zhou, C., Xu, C., Shi, B.,  
+*[EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-resolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Han_EvIntSR-Net_Event_Guided_Multiple_Latent_Frames_Reconstruction_and_Super-Resolution_ICCV_2021_paper.pdf)*,  
+IEEE Int. Conf. Computer Vision (ICCV), 2021. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Han_EvIntSR-Net_Event_Guided_Multiple_Latent_Frames_Reconstruction_and_Super-Resolution_ICCV_2021_paper.pdf), [Suppl.](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Han_EvIntSR-Net_Event_Guided_ICCV_2021_supplemental.pdf)
 
 
 <a name="joint-filtering"></a>
 ### Joint/guided filtering
 - <a name="Wang20cvpr-gef"></a>Wang, Z. W., Duan, P., Cossairt, O., Katsaggelos, A., Huang, T., Shi, B.,  
 *[Joint Filtering of Intensity Images and Neuromorphic Events for High-Resolution Noise-Robust Imaging](https://compphotolab.northwestern.edu/wordpress/wp-content/uploads/2020/04/cvpr2020-gef-compressed.pdf)*,  
-IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2020. [YouTube](https://youtu.be/JpJFBZ97KX0), [Dataset](https://sites.google.com/view/guided-event-filtering)
+IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2020. [YouTube](https://youtu.be/JpJFBZ97KX0), [Dataset](https://sites.google.com/view/guided-event-filtering)  
 
 
 <a name="tone-mapping"></a>
@@ -926,6 +943,9 @@ Optics Express, 2021. [Video](https://osapublishing.figshare.com/articles/media/
 - <a name="Muglikar21esl"></a>Muglikar, M., Gallego, G., Scaramuzza, D.,  
 *[ESL: Event-based Structured Light](http://rpg.ifi.uzh.ch/docs/3DV21_Muglikar_ESL.pdf)*,  
 IEEE Int. Conf. 3D Vision (3DV), 2021. [Poster](http://rpg.ifi.uzh.ch/docs/3DV21_Muglikar_ESL_poster.pdf), [YouTube](https://youtu.be/SITmvZ8VLfs), [Project page and Dataset](http://rpg.ifi.uzh.ch/esl.html), [Code](https://github.com/uzh-rpg/ESL).
+- <a name="Muglikar21threedv"></a>Muglikar, M., Moeys, D., Scaramuzza, D.,  
+*[Event Guided Depth Sensing](https://rpg.ifi.uzh.ch/docs/3DV21_Muglikar.pdf)*,  
+IEEE Int. Conf. 3D Vision (3DV), 2021. [YouTube](https://youtu.be/Rvv9IQLYjCQ).
 
 
 <a name="depth-stereo"></a>
@@ -1224,7 +1244,9 @@ IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [You
 - <a name="Gu21iccv"></a>Gu, C., Learned-Miller, E., Sheldon, D., Gallego, G., Bideau, P.,  
 *[The Spatio-Temporal Poisson Point Process: A Simple Model for the Alignment of Event Camera Data](http://vis-www.cs.umass.edu/motionSegmentation/website_ICCV21/ICCV2021-paper.pdf)*,  
 IEEE Int. Conf. Computer Vision (ICCV), 2021. [Project page](http://vis-www.cs.umass.edu/motionSegmentation/website_ICCV21/index.html), [Code](https://github.com/pbideau/Event-ST-PPP)
-
+- <a name="Peng21bmvc"></a>Peng, X., Xu, W., Yang, J., Kneip, L.,  
+*[Continuous Event-Line Constraint for Closed-Form Velocity Initialization](https://www.bmvc2021-virtualconference.com/assets/papers/0877.pdf)*,  
+British Machine Vision Conf. (BMVC), 2021, [PDF](https://www.bmvc2021-virtualconference.com/assets/papers/0877.pdf), [Video](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0877.html)
 
 <a name="visual-servoing"></a>
 ### Visual Servoing
@@ -1297,12 +1319,16 @@ IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2021. [Suppl. Mat.](h
 - <a name="Wang21arxiv"></a>Wang, Y., Yang, J., Peng, X., Wu, P., Gao, L., Huang, K., Chen, J., Kneip, L.,  
 *[Visual Odometry with an Event Camera Using Continuous Ray Warping and Volumetric Contrast Maximization](https://arxiv.org/abs/2107.03011)*,  
 arXiv, 2021.
+- <a name="Zuo22icra"></a>Zuo, Y., Yang, J., Chen, J., Wang, X., Wang, Y., Kneip, L.,  
+*[DEVO: Depth-Event Camera Visual Odometry in Challenging Conditions](https://arxiv.org/abs/2202.02556)*,  
+IEEE Int. Conf. Robotics and Automation (ICRA), 2022. [PDF](https://arxiv.org/abs/2202.02556), [YouTube](https://www.youtube.com/watch?v=RqAAA4MOqRI)
 
 #### Stereo
 - <a name="Zhou21tro"></a>Zhou, Y., Gallego, G., Shen, S.,  
 *[Event-based Stereo Visual Odometry](https://doi.org/10.1109/TRO.2021.3062252)*,  
 IEEE Trans. Robot. (TRO), 2021. [Project page](https://sites.google.com/view/esvo-project-page/home), [PDF](https://arxiv.org/pdf/2007.15548), [YouTube](https://youtu.be/3CPPs1gz04k), [Code](https://github.com/HKUST-Aerial-Robotics/ESVO.git).
-
+- [Xiao et al., arXiv 2021](#Xiao22icrmv),  
+*Research on Event Accumulator Settings for Event-Based SLAM*.
 
 <a name="visual-inertial"></a>
 ### Visual-Inertial Odometry
@@ -1331,6 +1357,9 @@ IEEE Robotics and Automation Letters (RA-L), 3(2):994-1001, Apr. 2018. [PDF](htt
 - <a name="LeGentil20arxiv"></a>Le Gentil, C., Tschopp, F., Alzugaray, I., Vidal-Calleja, T., Siegwart, R., Nieto, J.,  
 *[IDOL: A Framework for IMU-DVS Odometry using Lines](https://ras.papercept.net/proceedings/IROS20/1135.pdf)*,  
 IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2020. [PDF](https://arxiv.org/pdf/2008.05749)
+- <a name="Xiao22icrmv"></a>Xiao, K., Wang, G., Chen, Y., Xie, Y., Li, H.,  
+*[Research on Event Accumulator Settings for Event-Based SLAM](https://arxiv.org/abs/2112.00427)*,  
+arXiv, 2021. [PDF(Monocular VIO ony)](https://arxiv.org/abs/2112.00427), [Code (VIO and Stereo)](https://github.com/robin-shaun/event-slam-accumulator-settings).
 
 
 <a name="segmentation"></a>
@@ -1744,7 +1773,7 @@ Int. Symp. Low Power Electronics and Design (ISLPED), 2020. [PDF](https://www.re
 *Learning Monocular Dense Depth from Events.*
 - [Gehrig et al., RA-L, 2021](#Gehrig21ral)   
 *Combining Events and Frames Using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction*
-- [Paredes-Valles et al., arXiv 2021](#ParedesValles21arxiv),  
+- [Hagenaars et al., NeurIPS 2021](#Hagenaars21neurips),  
 *Self-Supervised Learning of Event-Based Optical Flow with Spiking Neural Networks.*
 
 
@@ -1774,7 +1803,9 @@ arXiv, 2019. [PDF](https://arxiv.org/pdf/1904.04805), [Video](https://neurorobot
 - <a name="Gehrig20cvpr"></a>Gehrig, D., Gehrig, M., Hidalgo-Carrió, J., Scaramuzza, D.,  
 *[Video to Events: Recycling Video Datasets for Event Cameras](http://rpg.ifi.uzh.ch/docs/CVPR20_Gehrig.pdf)*,  
 IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2020. [YouTube](https://youtu.be/uX6XknBGg0w),  [Project page](https://github.com/uzh-rpg/rpg_vid2e)
-
+- <a name="Deng21tip"></a>Deng, Y., Chen, H., Chen, H. and Li, Y.,  
+*[Learning From Images: A Distillation Learning Framework for Event Cameras](https://ieeexplore.ieee.org/abstract/document/9426390)*,  
+IEEE Trans. Image Process., vol. 30, pp. 4919-4931, 2021. [Dataset](https://github.com/SuppDoc/EventKD)
 
 <a name="signal_processing"></a>
 ## Signal Processing
@@ -1842,6 +1873,9 @@ arXiv, 2020.
 - <a name="Alkendi21arxiv"></a>Alkendi, Y., Azzam, R., Ayyad, A., Javed, S., Seneviratne, L., Zweiri, Y.,  
 [Neuromorphic Camera Denoising using Graph Neural Network-driven Transformers](https://arxiv.org/pdf/2112.09685),  
 arXiv, 2021. [Youtube](https://www.youtube.com/watch?v=x0FXZLEenJ8), [Dataset](https://github.com/Yusra-alkendi/ED-KoGTL)
+- <a name="GuoDelbruck22pami"></a>Guo, S.  and Delbruck, T.,  
+[Low Cost and Latency Event Camera Background Activity Denoising](https://doi.org/10.1109/TPAMI.2022.3152999),  
+IEEE Trans. Pattern Anal. Mach. Intell., 2022. [Full PDF incl. Supplementary Material](https://drive.google.com/file/d/1HkkEeX4JmIWgaG9y7joxmPgx3lEw5bt6/view?usp=sharing), [DND21 DeNoising Dynamic vision sensors website](https://sites.google.com/view/dnd21/home)
 
 <a name="compression"></a>
 ### Compression
@@ -1932,7 +1966,7 @@ IEEE Robotics and Automation Letters (RA-L), 5(4):6239-6246, Oct. 2020. [PDF](ht
 *[Event-Based PID Controller Fully Realized in Neuromorphic Hardware: A One DoF Study](https://ras.papercept.net/proceedings/IROS20/1350.pdf)*,  
 IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2020.
 - <a name="Delbruck21cvprw"></a>Delbruck, T., Graca, R., Paluch, M.,  
-*[Feedback control of event cameras](https://openaccess.thecvf.com/content/CVPR2021W/EventVision/papers/Hu_v2e_From_Video_Frames_to_Realistic_DVS_Events_CVPRW_2021_paper.pdf)*, IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021.
+*[Feedback control of event cameras](https://tub-rip.github.io/eventvision2021/papers/2021CVPRW_Feedback_control_of_event_cameras.pdf)*, IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021.
 - <a name="Vitale21icra"></a>Vitale, A., Renner, A., Nauer, C., Scaramuzza, D., Sandamirskaya, Y.,  
 *[Event-driven Vision and Control for UAVs on a Neuromorphic Chip](https://doi.org/10.1109/ICRA48506.2021.9560881)*,  
 IEEE Int. Conf. Robotics and Automation (ICRA), 2021. [PDF](http://rpg.ifi.uzh.ch/docs/ICRA21_Vitale.pdf), [YouTube](https://youtu.be/uGEK8eT9Qb0), [PPT Slides](http://rpg.ifi.uzh.ch/docs/ICRA2021_PID%20Controller.pptx).
@@ -2073,6 +2107,9 @@ IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [Pro
 - <a name="Nehvi21cvprw"></a>Nehvi, J., Golyanik, V., Mueller, F., Seidel, H.-P., Elgharib, M., Theobalt, C.,  
 *[Differentiable Event Stream Simulator for Non-Rigid 3D Tracking](https://openaccess.thecvf.com/content/CVPR2021W/EventVision/papers/Nehvi_Differentiable_Event_Stream_Simulator_for_Non-Rigid_3D_Tracking_CVPRW_2021_paper.pdf)*,  
 IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [Project page](http://gvv.mpi-inf.mpg.de/projects/Event-based_Non-rigid_3D_Tracking/), [YouTube](https://youtu.be/dU2zv_Ggp7Y), [Suppl.](https://openaccess.thecvf.com/content/CVPR2021W/EventVision/supplemental/Nehvi_Differentiable_Event_Stream_CVPRW_2021_supplemental.pdf).
+- <a name="Joubert21fins"></a>Joubert, C., Marcireau, A., Ralph, N., Jolley, A., van Schaik, A., Cohen, G.,  
+[Event Camera Simulator Improvements via Characterized Parameters](https://www.frontiersin.org/articles/10.3389/fnins.2021.702765/full)  
+  Front. Neurosci., 2021, [IEBCS simulator](https://github.com/neuromorphicsystems/IEBCS)
 
 
 
@@ -2086,6 +2123,8 @@ IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [Pro
     - ROSHAMBO17 - 	RoShamBo Rock Scissors Paper game DVS dataset
     - DHP19 - 	DAVIS Human Pose Estimation and Action Recognition
     - DDD20 - End-to-End Event Camera Driving Dataset
+    - DND21 - DeNoising Dynamic vision sensors dataset
+    - EDFLOW21 - Event Driven Flow dataset
 
 ### Stereo Depth Estimation
 - [Andreopoulos et al., CVPR 2018](#Andreopoulos18cvpr), *A Low Power, High Throughput, Fully Event-Based Stereo System*.
@@ -2101,6 +2140,8 @@ IEEE Robotics and Automation Letters (RA-L), 2021. [Dataset](http://rpg.ifi.uzh.
 - [Bardow et al., CVPR2016](#Bardow16cvpr), [Four sequences](http://wp.doc.ic.ac.uk/pb2114/datasets/)
 - [Zhu et al., RAL2018](#Zhu18mvsec): *MVSEC The Multi Vehicle Stereo Event Camera Dataset*.
 - [Almatrafi et al. PAMI 2020](#Almatrafi20arxiv): *Distance Surface for Event-Based Optical Flow*. [DVSMOTION20 Dataset](https://sites.google.com/a/udayton.edu/issl/software/dataset?authuser=0)
+- [EDFLOW21 Event Driven Optical Flow Camera dataset](https://sites.google.com/view/edflow21/home) associated with the paper [EDFLOW: Event Driven Optical Flow Camera with Keypoint Detection and Adaptive Block Matching](#LiuDelbruck2022tcsvt).
+- [EV-IMO Event based Independently Moving Objects dataset](https://better-flow.github.io/evimo/) associated to the paper [EV-IMO: Motion Segmentation Dataset and Learning Pipeline for Event Cameras](#Mitrokhin19iros) ([motion vector flow](https://github.com/better-flow/evimo/blob/master/tools/evimo_flow.py) added Jan 2022)
 
 ### Intensity-Image Reconstruction from events
 - [Bardow et al., CVPR2016](#Bardow16cvpr), [Four sequences](http://wp.doc.ic.ac.uk/pb2114/datasets/)
@@ -2200,6 +2241,7 @@ IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [Pro
 
 ### Event Denoising
 - [DVSNOISE20](https://sites.google.com/a/udayton.edu/issl/software/dataset) associated to the paper [Event Probability Mask (EPM) and Event Denoising Convolutional Neural Network (EDnCNN) for Neuromorphic Cameras](#Baldwin20cvpr).
+- [DND21 DeNoising Dynamic vision sensors dataset](https://sites.google.com/view/dnd21/datasets?authuser=0) associated to the paper [Low Cost and Latency Event Camera Background Activity Denoising](#GuoDelbruck22pami)
 
 ### Space Situational Awareness
 - [The Event-Based Space Situational Awareness (EBSSA) Dataset](https://www.westernsydney.edu.au/icns/reproducible_research/publication_support_materials/space_imaging) associated to the paper [Event-based Object Detection and Tracking for Space Situational Awareness](#Afshar19arxiv).
@@ -2223,11 +2265,11 @@ IEEE Conf. Computer Vision and Pattern Recognition Workshops (CVPRW), 2021. [Pro
 - [ROS (Robotic Operating System)](https://github.com/uzh-rpg/rpg_dvs_ros)
 - [YARP (Yet Another Robot Platform)](https://github.com/robotology/event-driven)
 - [Prophesee ROS Wrapper](https://github.com/prophesee-ai/prophesee_ros_wrapper) ROS driver and messages for Prophesee event-based sensors
-- [Prophesee camera plugins](https://docs.prophesee.ai/stable/installation/windows.html#camera-plugins)
+- [Prophesee camera plugins](https://docs.prophesee.ai/stable/installation/camera_plugins.html)
 - [CeleX5 ROS Wrapper](https://github.com/kehanXue/CeleX5-ROS) A ROS driver and some other tools for [CeleX5_MP](http://www.celepixel.com/#/Samples) event-based sensor (which has a high resolution at 1280×800)
 
 <a name="calibration"></a>
-## Calibration
+## Lens Calibration
 - [Lens focus adjustment](https://github.com/uzh-rpg/rpg_dvs_ros/tree/master/dvs_calibration#focus-adjustment) or [this other source](https://github.com/ethz-asl/kalibr/wiki/calibrating-the-vi-sensor#2-setting-the-focus).
 - For the DAVIS: use the grayscale frames to calibrate the optics of both frames and events.
     - ROS camera calibrator ([monocular](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration) or [stereo](http://wiki.ros.org/camera_calibration/Tutorials/StereoCalibration))
@@ -2303,9 +2345,11 @@ IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2021. [Video](https:/
 *[Sepia, Tarsier, and Chameleon: A Modular C++ Framework for Event-Based Computer Vision](https://doi.org/10.3389/fnins.2019.01338)*,  
 Front. Neurosci. (2020), 13:1338. [Code](https://github.com/neuromorphic-paris/tutorials)
 - [BIMVEE](https://github.com/event-driven-robotics/bimvee) Python tools for Batch Import, Manipulation, Visualisation and Export of Events and other timestamped data. Imports from various file formats into a common workspace format, including native Python import of rosbags.
-- [Tonic](https://github.com/neuromorphs/tonic) provides publicly available event datasets and data transformations based on PyTorch.
+- [Tonic](https://github.com/neuromorphs/tonic) provides publicly available event datasets and data transformations much like Torchvision/audio.
 - Prophesee automotive dataset toolbox, [Code](https://github.com/prophesee-ai/prophesee-automotive-dataset-toolbox)
 - [dv_ros](https://github.com/kehanXue/dv_ros) ROS package for accumulating event frames with iniVation Dynamic Vision System's dv-sdk.
+- [dvs_event_server](https://github.com/robin-shaun/dvs_event_server) ROS package used to transport "dvs/events" ROS topic to Python through protobuf and zmq, because Python ROS callback has a large delay.
+- [AEStream](https://github.com/norse/aestream/) A fast C++ library with a Python interface for streaming Address Event representations directly from Inivation and Prophesee cameras to various sources, such as STDOUT, UDP (network), or [PyTorch](https://pytorch.org/).
 
 <br><br>
 <a name="processors-platforms"></a>
@@ -2484,6 +2528,9 @@ Ph.D. Thesis, Monash University, Melbourne, Australia, 2021.
 - <a name="Monforte21PhD"></a>Monforte, M.,  
 *[Trajectory Prediction with Event-Based Cameras for Robotics Applications](http://hdl.handle.net/11567/1047290)*,  
 Ph.D. Thesis, Italian Institute of Technology, Genoa, Italy, 2021. [PDF](https://iris.unige.it/retrieve/handle/11567/1047290/534319/phdunige_4458940.pdf)
+- <a name="Lenz21PhD"></a>Lenz, G.,  
+*[Neuromorphic algorithms and hardware for event-based processing](https://tel.archives-ouvertes.fr/tel-03474197)*,  
+Ph.D. Thesis, Sorbonne University, Paris, France, 2021. [PDF](https://tel.archives-ouvertes.fr/tel-03474197/document)
 - See also [Theses from Delbruck's group at INI](https://www.ini.uzh.ch/~tobi/wiki/doku.php?id=publications#phd_thesis)
 
 
