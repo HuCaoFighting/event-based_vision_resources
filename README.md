@@ -797,6 +797,7 @@ IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2019. [PDF](https://a
     - <a name="Pan19arxiv"></a>Pan, L., Hartley, R., Scheerlinck, C., Liu, M., Yu, X., Dai, Y.,  
 *[High Frame Rate Video Reconstruction based on an Event Camera](https://arxiv.org/pdf/1903.06531)*,  
 arXiv, 2019.
+    - Open-source Rust implementation: [davis-EDI-rs](https://github.com/ac-freeman/davis-EDI-rs)
 - <a name="Pini19iciap"></a>Pini, S., Borghi, G., Vezzani, R., Cucchiara, R.,  
 *[Video Synthesis from Intensity and Event Frames](https://doi.org/10.1007/978-3-030-30642-7_28)*,  
 Int. Conf. Image Analysis and Processing (ICIAP), 2019. LNCS, vol 11751. [PDF](https://iris.unimore.it/retrieve/handle/11380/1178955/224434/ICIAP19_Event_Cameras.pdf)
@@ -1248,6 +1249,9 @@ IEEE Int. Conf. Computer Vision (ICCV), 2021. [Project page](http://vis-www.cs.u
 - <a name="Peng21bmvc"></a>Peng, X., Xu, W., Yang, J., Kneip, L.,  
 *[Continuous Event-Line Constraint for Closed-Form Velocity Initialization](https://www.bmvc2021-virtualconference.com/assets/papers/0877.pdf)*,  
 British Machine Vision Conf. (BMVC), 2021, [PDF](https://www.bmvc2021-virtualconference.com/assets/papers/0877.pdf), [Video](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0877.html)
+- <a name="Peng21bmvc"></a>Peng, X., Xu, W., Yang, J., Kneip, L.,  
+*[EventVLAD: Visual Place Recognition with Reconstructed Edges from Event Cameras](https://ieeexplore.ieee.org/abstract/document/9635907)*,  
+IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2021, [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9635907)
 
 <a name="visual-servoing"></a>
 ### Visual Servoing
@@ -2196,6 +2200,9 @@ IEEE Robotics and Automation Letters (RA-L), 2021.
 - <a name="Klenk21iros"></a>Klenk S., Chui, J., Demmel, N., Cremers, D.,  
 *[TUM-VIE: The TUM Stereo Visual-Inertial Event Data Set](https://vision.in.tum.de/data/datasets/visual-inertial-event-dataset)*,  
 IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2021.
+- <a name="lee2022vivid++"></a>Lee, A. J., Cho, Y., Shin, Y., Kim, A., Myung, H.,  
+[ViViD++: Vision for Visibility Dataset](https://visibilitydataset.github.io/),  
+IEEE Robotics and Automation Letters (RA-L), 2022. [Dataset](https://visibilitydataset.github.io/)
 
 ### Segmentation
 - [Mitrokhin et al., IROS 2018](#Mitrokhin18iros), Extreme Event Dataset (EED). [Project page and Dataset](http://prg.cs.umd.edu/BetterFlow.html)
@@ -2357,6 +2364,8 @@ Front. Neurosci. (2020), 13:1338. [Code](https://github.com/neuromorphic-paris/t
 - [dv_ros](https://github.com/kehanXue/dv_ros) ROS package for accumulating event frames with iniVation Dynamic Vision System's dv-sdk.
 - [dvs_event_server](https://github.com/robin-shaun/dvs_event_server) ROS package used to transport "dvs/events" ROS topic to Python through protobuf and zmq, because Python ROS callback has a large delay.
 - [AEStream](https://github.com/norse/aestream/) A fast C++ library with a Python interface for streaming Address Event representations directly from Inivation and Prophesee cameras to various sources, such as STDOUT, UDP (network), or [PyTorch](https://pytorch.org/).
+- [AEDAT decoder](https://github.com/neuromorphicsystems/aedat) A fast AEDAT 4 Python reader, with a Rust underlying implementation.
+- [aedat-rs](https://github.com/ac-freeman/aedat-rs) Standalone Rust library for decoding AEDAT 4 files for use in bespoke Rust event systems.
 
 <br><br>
 <a name="processors-platforms"></a>
