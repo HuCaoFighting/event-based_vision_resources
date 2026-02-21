@@ -1,13 +1,10 @@
 # Event-based Vision Resources
 
+## <a href="https://joint-research-centre.ec.europa.eu/events/innovative-neuromorphic-vision-sensors-invisions-workshop-2026-02-05_en"> Innovative Neuromorphic Vision Sensors (INVISIONS) workshop, 2026.</a> Feb 5th-6th.
 ## <a href="https://ieee-cas.org/files/ieeecass/2025-08/JETCAS_CFP_2026Q3.pdf"> Neuromorphic Computing and Sensing Meets Extended Reality — IEEE JETCAS Special Issue "Circuits and Systems for Extended Reality" Call for Papers. </a> Paper submission until March 2nd 2026.
-## <a href="https://edpr.iit.it/events/2026-evs"> EVS: Event Vision School 2026.</a> May 17-23th, Arenzano (Italy). $\color{red}{\textbf{Apply now!}}$
+## <a href="https://edpr.iit.it/events/2026-evs"> EVS: Event Vision School 2026.</a> May 17-23th, Arenzano (Italy).
 ## <a href="https://eventbasedvision.github.io/EVGEN2026/"> WACV 2026 EVGEN: Event-based Vision in the Era of Generative AI.</a> March 2026, Tucosn (USA). Paper submission until Dec 7th 2025.
 ## <a href="https://spie.org/photonics-west/event/vision-tech-event-based-session-neuromorphic-sensing-in-motion-from-event-based-vision-to-adaptive-intelligence/7101335"> SPIE Photonics West. Vision Tech Forum. Neuromorphic Sensing in Motion: From Event-Based Vision to Adaptive Intelligence,</a> Jan. 21, 2026 
-## <a href="https://eventvision-robotics.github.io/iros_workshop/"> IROS 2025 Workshop on Event-Based Vision.</a>
-## <a href="https://nail-hnu.github.io/EvSLAM/index.html"> IROS 2025 Event-based Stereo SLAM Challenge.</a>
-## <a href="https://sites.google.com/view/neurobots2025"> IROS 2025 Workshop on Neuromorphic Perception for Real World Robotics (NeuRobots 2025).</a>
-## <a href="https://sites.google.com/view/nevi-2025/home-page"> ICCV 2025 Workshop on Neuromorphic Vision (NeVi).</a>
 ## <a href="https://www.neuropac.info/">NeuroPAC</a>
 ## <a href="https://hylz-2019.github.io/Neuro_Vision_Map/map.html">Map of event-based institutions (from papers)</a>
 [![Neuro Vision Map](docs/img/map_of_event_based_institutions.jpg)](https://hylz-2019.github.io/Neuro_Vision_Map/map.html)
@@ -1071,7 +1068,7 @@ AAAI Conf. Artificial Intelligence (AAAI), 2024. [Code](https://github.com/Vince
 IEEE Trans. Image Process. (TIP), 33:1826-1837, 2024. [PDF](https://arxiv.org/pdf/2305.06382), [Project Page](https://ercanburak.github.io/HyperE2VID.html), [Code](https://github.com/ercanburak/HyperE2VID), [YouTube](https://www.youtube.com/watch?v=BWEV56-E0mE).
 - <a name="Zhang24tip"></a>Zhang, P., Liu, H., Ge, Z., Wang, C., Lam, E. Y.,   
 *[Neuromorphic Imaging with Joint Image Deblurring and Event Denoising](https://doi.org/10.1109/TIP.2024.3374074)*,  
-IEEE Trans. Image Process. (TIP), 2024. [PDF](https://arxiv.org/pdf/2309.16106.pdf), [Code](https://github.com/pz-even/ni-joint)
+IEEE Trans. Image Process. (TIP), 2024. [PDF](https://www.eee.hku.hk/optima/pub/journal/2403_ITIP.pdf), [Code](https://github.com/pz-even/event_image_deblur_denoise)
 - <a name="Muglikar23arxiv"></a>Zou, R., Muglikar, M., Messikommer, N., Scaramuzza, D.,   
 *[Seeing behind Dynamic Occlusions with Event Cameras](https://arxiv.org/pdf/2307.15829)*,  
 arXiv, 2023.
@@ -1215,9 +1212,9 @@ IEEE Int. Conf. on Image Processing (ICIP), 2023. [Code](https://github.com/Dach
 - <a name="Kai24icml"></a>Kai, D., Lu, J., Zhang, Y., Sun, X.,  
 *[EvTexture: Event-driven Texture Enhancement for Video Super-Resolution](https://arxiv.org/pdf/2406.13457)*,  
 Int. Conf. on Machine Learning (ICML), 2024. [Project](https://dachunkai.github.io/evtexture.github.io/), [Code](https://github.com/DachunKai/EvTexture).
-- <a name="Zhang24tcsvt"></a>Zhang, P., Zhu, S., Wang, C., Zhao, Y., Lam, E. Y.,   
+- <a name="Zhang25tcsvt"></a>Zhang, P., Zhu, S., Wang, C., Zhao, Y., Lam, E. Y.,   
 *[Neuromorphic Imaging with Super-Resolution](https://doi.org/10.1109/TCSVT.2024.3482436)*,  
-IEEE Trans. Circuits Syst. Video Technol. (TCSVT), 2024. [PDF](https://arxiv.org/pdf/2407.05764), [Code](https://github.com/pz-even/ni-sr).
+IEEE Trans. Circuits Syst. Video Technol. (TCSVT), 2025. [PDF](https://www.eee.hku.hk/optima/pub/journal/2502_TCSVT.pdf), [Code](https://github.com/pz-even/event_super-resolution).
 
 <a name="joint-filtering"></a>
 ### Joint/guided filtering
@@ -2123,7 +2120,7 @@ ACM Int. Conf. on Neuromorphic Systems (ICONS), 2022.
  IEEE Winter Conf. Applications of Computer Vision (WACV), 2024. [Dataset](https://ms-evs.github.io/), [Poster](https://github.com/ms-evs/ms-evs.github.io/blob/40d657cce1f60f32b6745c5514daeeef5d18d1aa/wacv24-poster.pdf).
 - <a name="Zhang24neurocomputing"></a>Zhang, P., Wang, C., Lam, E. Y.,  
 *[Neuromorphic Imaging and Classification with Graph Learning](https://doi.org/10.1016/j.neucom.2023.127010)*,  
-Neurocomputing, 2024. [PDF](https://arxiv.org/pdf/2309.15627.pdf), [Code](https://github.com/pz-even/ni-graph)
+Neurocomputing, 2024. [PDF](https://www.eee.hku.hk/optima/pub/journal/2401_NC.pdf), [Code](https://github.com/pz-even/event_graph_learning)
 - <a name="Zubic24cvpr"></a>Zubić, N., Gehrig, M., Scaramuzza, D.,  
 *[State Space Models for Event Cameras](https://arxiv.org/abs/2402.15584)*,  
  IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2024. [PDF](https://rpg.ifi.uzh.ch/docs/CVPR2024_Zubic.pdf), [Code](https://github.com/uzh-rpg/ssms_event_cameras).
@@ -2547,7 +2544,7 @@ IEEE Int. Conf. Robotics and Automation (ICRA), 2022. [PDF](https://arxiv.org/pd
 *M-out-of-N Event Declaration Filter for Improved Event Detection (Unsupervised adaptive multi-object tracking-by-clustering algorithm with a bio-inspired system)*.
 - <a name="Zhang23tci"></a>Zhang, P., Ge, Z., Song, L., Lam, E. Y.,   
 *[Neuromorphic Imaging with Density-based Spatiotemporal Denoising](https://doi.org/10.1109/TCI.2023.3281202)*,  
-IEEE Trans. Comput. Imaging (TCI), 2023. [Code](https://github.com/pz-even/ni-denoising)
+IEEE Trans. Comput. Imaging (TCI), 2023. [PDF](https://www.eee.hku.hk/optima/pub/journal/2305_TCI.pdf), [Code](https://github.com/pz-even/event_denoise)
 <a name="compression"></a>
 - [Shiba et al. TPAMI 2024](#Shiba24tpami),  
 *Secrets of Event-based Optical Flow, Depth and Ego-motion Estimation by Contrast Maximization*.
@@ -2864,7 +2861,7 @@ IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2021. [Suppl.](https:
 Sensors, 2021.
 - <a name="Zhang24nce"></a>Zhang, P., Zhu, S., Lam, E. Y.,   
 *[Event Encryption: Rethinking Privacy Exposure for Neuromorphic Imaging](https://doi.org/10.1088/2634-4386/ad207b)*,  
-Neuromorphic Computing and Engineering, 2024. [PDF](https://arxiv.org/pdf/2306.03369.pdf)
+Neuromorphic Computing and Engineering, 2024. [PDF](https://www.eee.hku.hk/optima/pub/journal/2401_NCE.pdf)
 
 <a name="nuclear_verification"></a>
 ## Nuclear Verification
@@ -3291,6 +3288,12 @@ Data in Brief, 2024. [Dataset](https://doi.org/10.5281/zenodo.10562563), [Code](
 - [DVSNOISE20](https://sites.google.com/a/udayton.edu/issl/software/dataset) associated to the paper [Event Probability Mask (EPM) and Event Denoising Convolutional Neural Network (EDnCNN) for Neuromorphic Cameras](#Baldwin20cvpr).
 - [DND21 DeNoising Dynamic vision sensors dataset](https://sites.google.com/view/dnd21/datasets?authuser=0) associated to the paper [Low Cost and Latency Event Camera Background Activity Denoising](#GuoDelbruck22pami)
 - [Event Flicker Removal Dataset](https://drive.google.com/drive/u/1/folders/1S2LiKrteh4N23SOghA0xU7rC1Q8trNCR) associated to the paper [Wang et al., ICRA 2022](#Wang22icra). [PDF](https://arxiv.org/pdf/2205.08090.pdf), [Project Page](https://github.com/ziweiWWANG/EFR).
+
+<a name="low-light-vision"></a>
+## Low-Light Vision
+- <a name="Ercan25eccvw"></a>Ercan, B., Eker, O., Erdem, A., Erdem, E.,  
+*[HUE Dataset: High-Resolution Event and Frame Sequences for Low-Light Vision](https://doi.org/10.1007/978-3-031-92460-6_11)*,  
+European Conf. Computer Vision Workshops (ECCVW), 2024. [PDF](https://arxiv.org/pdf/2410.19164.pdf), [Project Page and Dataset](https://ercanburak.github.io/HUE.html).
 
 ## Space Situational Awareness
 - [The Event-Based Space Situational Awareness (EBSSA) Dataset](https://www.westernsydney.edu.au/icns/reproducible_research/publication_support_materials/space_imaging) associated to the paper [Event-based Object Detection and Tracking for Space Situational Awareness](#Afshar19arxiv).
